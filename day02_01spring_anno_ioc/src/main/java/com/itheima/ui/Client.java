@@ -2,7 +2,6 @@ package com.itheima.ui;
 
 
 import com.itheima.service.IAccountService;
-import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**
@@ -26,16 +25,8 @@ public class Client {
         ClassPathXmlApplicationContext ac = new ClassPathXmlApplicationContext("bean.xml");
 
         //构造函数方式
-//        IAccountService accountService = ac.getBean("accountService", IAccountService.class);
-//        accountService.saveAccount();
-
-        //set方式
-//        IAccountService accountService1 = ac.getBean("accountService1", IAccountService.class);
-//        accountService1.saveAccount();
-
-        //集合注入
-        IAccountService accountService2 = ac.getBean("accountService2", IAccountService.class);
-        accountService2.saveAccount();
+        IAccountService accountService = ac.getBean("accountService", IAccountService.class);
+        accountService.saveAccount();
 
     }
 }

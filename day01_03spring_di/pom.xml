@@ -4,13 +4,17 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>day01_02spring_bean</artifactId>
-        <groupId>com.itheima</groupId>
+        <groupId>com.com.itheima</groupId>
         <version>1.0-SNAPSHOT</version>
         <relativePath>../day01_02spring_bean/pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>day01_03spring_di</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>../day02_01spring_anno_ioc</module>
+    </modules>
 
     <dependencies>
         <dependency>

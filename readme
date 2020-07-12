@@ -1,0 +1,28 @@
+(1)day01_01spring_xml:
+spring xml配置
+
+(2)day01_02spring_bean:
+spring bean讲解
+
+(3)day01_03spring_di:
+spring中的依赖注入
+
+(4)day02_01spring_anno_ioc:
+注解ioc实现
+
+(5)day02_02spring_demo_ioc_xml:
+XML ioc实现（使用QueryRunner访问数据库）
+
+(6)day02_03spring_demo_ioc_annotation:
+XML和注解一起ioc实现,在day02_02spring_demo_ioc_xml基础上将部分类采用注解实现
+
+(7)day02_04spring_ioc_no_xml:
+在day02_03spring_demo_ioc_annotation基础完全使用注解实现
+
+(8)day03_01spring_account
+1.演示是非事务的银行转账中会产生问题
+2.然后使用事务解决问题
+3.最后引出aop，为后面做铺垫
+
+(9)day03_02spring_aop_xml
+使用xml方式对aop所有知识讲解

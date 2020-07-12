@@ -68,4 +68,53 @@
         <property name="age" value="33"/>
         <property name="birthday" ref="birthday"/>
     </bean>
+
+    <!-- 复杂类型的注入/集合类型的注入
+    用于给List结构集合注入的标签：
+        list array set
+    用于个Map结构集合注入的标签:
+        map  props
+    结构相同，标签可以互换
+    -->
+    <bean id="accountService2" class="com.itheima.service.impl.AccountServiceImpl2">
+        <property name="myStrs">
+            <array>
+                <value>aaa</value>
+                <value>bbb</value>
+                <value>ccc</value>
+            </array>
+        </property>
+
+        <property name="mySet">
+            <set>
+                <value>aaa</value>
+                <value>bbb</value>
+                <value>ccc</value>
+            </set>
+        </property>
+
+        <property name="myList">
+            <list>
+                <value>aaa</value>
+                <value>bbb</value>
+                <value>ccc</value>
+            </list>
+        </property>
+
+        <property name="myMap">
+            <map>
+                <entry key="key1" value="aaa"/>
+                <entry key="key2">
+                    <value>bbb</value>
+                </entry>
+            </map>
+        </property>
+
+        <property name="myProps">
+            <props>
+                <prop key="testC">ccc</prop>
+                <prop key="testD">ddd</prop>
+            </props>
+        </property>
+    </bean>
 </beans>
