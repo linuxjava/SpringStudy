@@ -11,10 +11,10 @@ spring中的依赖注入
 注解ioc实现
 
 (5)day02_02spring_demo_ioc_xml:
-XML ioc实现（使用QueryRunner访问数据库）
+XML ioc实现（使用commons-dbutils中的QueryRunner访问数据库）
 
 (6)day02_03spring_demo_ioc_annotation:
-XML和注解一起ioc实现,在day02_02spring_demo_ioc_xml基础上将部分类采用注解实现
+XML和注解一起ioc实现,在day02_02spring_demo_ioc_xml基础上将部分类采用注解实现（使用commons-dbutils中的QueryRunner访问数据库）
 
 (7)day02_04spring_ioc_no_xml:
 在day02_03spring_demo_ioc_annotation基础完全使用注解实现
@@ -26,3 +26,21 @@ XML和注解一起ioc实现,在day02_02spring_demo_ioc_xml基础上将部分类�
 
 (9)day03_02spring_aop_xml
 使用xml方式对aop所有知识讲解
+
+(10)day03_03spring_aop_annotation
+使用半注解方式对aop所有知识讲解
+
+（11）day03_04spring_aop_all_annotation
+使用全注解方式实现aop
+
+(12)day04_01spring_jdbctemplate
+jdbctemplate使用起步
+
+(13)day04_02spring_jdbctemplate
+jdbctemplate实现ioc、CRUD
+
+(14)day04_03spring_jdbctemplate_dao
+自定义实现DaoSupport(支持xml和注解)
+
+(14)day04_04spring_jdbctemplate_dao
+使用spring提供的JdbcDaoSupport(只支持xml)
