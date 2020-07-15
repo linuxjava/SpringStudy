@@ -69,6 +69,9 @@ spring事务的基础准备module
 - day04_08spring_tx_xml
 day04_07spring_tx_base基础上进行xml方式事务开发
 
+- day04_09spring_tx_anno_xml
+day04_08spring_tx_xml基础上注解和xml混合方式事务开发
+
 
 
 
