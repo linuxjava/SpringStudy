@@ -13,7 +13,7 @@ spring中的依赖注入
 
 # IOC
 - day02_01spring_ioc_anno
-ioc注解实现(无数据库访问)
+ioc注解实现，基本注解字段解释说明(无数据库访问)
 
 - day02_02spring_ioc_xml
 ioc xml实现（使用commons-dbutils中的QueryRunner访问数据库）
@@ -66,6 +66,8 @@ jdbctemplate实现ioc、CRUD
 - day04_07spring_tx_base
 spring事务的基础准备module
 
+- day04_08spring_tx_xml
+day04_07spring_tx_base基础上进行xml方式事务开发
 
 
 
