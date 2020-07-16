@@ -54,6 +54,9 @@ jdbctemplate实现ioc、CRUD
 - day04_04spring_jdbctemplate_JdbcDaoSupport
 使用spring提供的JdbcDaoSupport(只支持xml)
 
+- 总结
+spring提供的JdbcDaoSupport只支持xml方式，自定义实现的DaoSupport支持xml和注解
+
 # TX
 ## 自定义事务
 - day04_05spring_custom_tx_xml
@@ -72,8 +75,11 @@ day04_07spring_tx_base基础上进行xml方式事务开发
 - day04_09spring_tx_anno_xml
 day04_08spring_tx_xml基础上注解和xml混合方式事务开发
 
+- day04_10spring_tx_all_anno
+day04_07spring_tx_base基础使用全注解
 
-
+- 总结
+推荐使用xml配置方式，因为注解配置太麻烦了
 
 
 

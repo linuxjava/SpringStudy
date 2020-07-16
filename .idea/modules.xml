@@ -22,6 +22,7 @@
       <module fileurl="file://$PROJECT_DIR$/day04_07spring_tx_base/day04_07spring_tx_base.iml" filepath="$PROJECT_DIR$/day04_07spring_tx_base/day04_07spring_tx_base.iml" />
       <module fileurl="file://$PROJECT_DIR$/day04_08spring_tx_xml/day04_08spring_tx_xml.iml" filepath="$PROJECT_DIR$/day04_08spring_tx_xml/day04_08spring_tx_xml.iml" />
       <module fileurl="file://$PROJECT_DIR$/day04_09spring_tx_anno_xml/day04_09spring_tx_anno_xml.iml" filepath="$PROJECT_DIR$/day04_09spring_tx_anno_xml/day04_09spring_tx_anno_xml.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day04_10spring_tx_all_anno/day04_10spring_tx_all_anno.iml" filepath="$PROJECT_DIR$/day04_10spring_tx_all_anno/day04_10spring_tx_all_anno.iml" />
     </modules>
   </component>
 </project>

@@ -18,6 +18,7 @@
         <option value="$PROJECT_DIR$/day03_01spring_aop_account/pom.xml" />
         <option value="$PROJECT_DIR$/day03_02spring_aop_xml/pom.xml" />
         <option value="$PROJECT_DIR$/day04_09spring_tx_anno_xml/pom.xml" />
+        <option value="$PROJECT_DIR$/day04_10spring_tx_all_anno/pom.xml" />
       </list>
     </option>
   </component>

@@ -21,6 +21,7 @@
         <module name="day04_07spring_tx_base" />
         <module name="day04_08spring_tx_xml" />
         <module name="day04_09spring_tx_anno_xml" />
+        <module name="day04_10spring_tx_all_anno" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -56,6 +57,7 @@
       <module name="day04_07spring_tx_xml" target="1.5" />
       <module name="day04_08spring_tx_xml" target="1.5" />
       <module name="day04_09spring_tx_anno_xml" target="1.5" />
+      <module name="day04_10spring_tx_all_anno" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
