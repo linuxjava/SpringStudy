@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="day01_01spring_xml" />
+        <module name="day03_02spring_aop_xml" />
+        <module name="day03_03spring_aop_annotation" />
+        <module name="day03_04spring_aop_all_annotation" />
+        <module name="day04_01spring_jdbctemplate" />
+        <module name="day04_02spring_jdbctemplate_crud" />
+        <module name="day04_03spring_jdbctemplate_custom_dao" />
+        <module name="day04_04spring_aop_tx" />
+        <module name="day04_04spring_jdbctemplate_JdbcDaoSupport" />
+        <module name="day04_05spring_aop_anno_tx" />
+        <module name="day04_05spring_aop_tx" />
+        <module name="day04_06spring_custom_tx_anno" />
+        <module name="day04_07spring_tx_base" />
+        <module name="day04_08spring_tx_xml" />
+        <module name="day04_09spring_tx_anno_xml" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="day01_01spring_xml" target="1.5" />
+      <module name="day01_02spring_bean" target="1.5" />
+      <module name="day01_03spring_di" target="1.5" />
+      <module name="day02_01spring_anno_ioc" target="1.5" />
+      <module name="day02_01spring_ioc_anno" target="1.5" />
+      <module name="day02_02spring_demo_ioc_xml" target="1.5" />
+      <module name="day02_02spring_ioc_xml" target="1.5" />
+      <module name="day02_03spring_demo_ioc_annotation" target="1.5" />
+      <module name="day02_03spring_ioc_xml_anno" target="1.5" />
+      <module name="day02_04spring_ioc_all_anno" target="1.5" />
+      <module name="day02_04spring_ioc_no_xml" target="1.5" />
+      <module name="day03_01spring_account" target="1.6" />
+      <module name="day03_01spring_aop_account" target="1.6" />
+      <module name="day03_02spring_aop_xml" target="1.6" />
+      <module name="day03_03spring_aop_annotation" target="1.5" />
+      <module name="day03_04spring_aop_all_annotation" target="1.5" />
+      <module name="day04_01spring_jdbctemplate" target="1.5" />
+      <module name="day04_02spring_jdbctemplate" target="1.5" />
+      <module name="day04_02spring_jdbctemplate_crud" target="1.5" />
+      <module name="day04_03spring_jdbctemplate_custom_dao" target="1.5" />
+      <module name="day04_03spring_jdbctemplate_dao" target="1.5" />
+      <module name="day04_04spring_aop_tx" target="1.5" />
+      <module name="day04_04spring_jdbctemplate_dao" target="1.5" />
+      <module name="day04_04spring_jdbctemplate_JdbcDaoSupport" target="1.5" />
+      <module name="day04_05spring_aop_anno_tx" target="1.5" />
+      <module name="day04_05spring_aop_tx" target="1.5" />
+      <module name="day04_06spring_aop_anno_tx" target="1.5" />
+      <module name="day04_06spring_custom_tx_anno" target="1.5" />
+      <module name="day04_07spring_tx_base" target="1.5" />
+      <module name="day04_07spring_tx_xml" target="1.5" />
+      <module name="day04_08spring_tx_xml" target="1.5" />
+      <module name="day04_09spring_tx_anno_xml" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
